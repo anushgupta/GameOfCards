@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32 cards from a standard 52-card pack are used for play. There are eight cards in each of the usual French suits: hearts, diamonds, clubs and spades. The cards in every suit rank from high to low: J-9-A-10-K-Q-8-7. The aim of the game is to win tricks containing valuable cards. The values of the cards are:
+
+Jacks	3 points each
+Nines	2 points each
+Aces	1 point each
+Tens	1 point each
+Other cards (K, Q, 8, 7)      	no points
+"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

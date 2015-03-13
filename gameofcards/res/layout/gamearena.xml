@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/maingameback" >
+
+    <TextView
+        android:id="@+id/tvgame4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvgame1"
+        android:layout_alignTop="@+id/ib2"
+        android:text="TextView" 
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tvgame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvgame2"
+        android:layout_toRightOf="@+id/ib2"
+        android:visibility="invisible"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvgame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvgame4"
+        android:visibility="invisible"
+        android:layout_marginBottom="32dp"
+        android:layout_toLeftOf="@+id/ib3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvgame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvgame3"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btrump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Reveal Trump" />
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib8"
+        android:layout_alignLeft="@+id/tvgame4"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/eightdia" />
+
+    <ImageButton
+        android:id="@+id/ib1"
+        style="@android:style/Animation.Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ib2"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="30dp"
+        android:rotation="-45"
+        android:src="@drawable/acedia" />
+
+    <ImageButton
+        android:id="@+id/ib5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ib1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/ib7"
+        android:rotation="45"
+        android:src="@drawable/aceclub" />
+
+    <ImageButton
+        android:id="@+id/ib7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvgame4"
+        android:layout_alignTop="@+id/ib1"
+        android:src="@drawable/acespade" />
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvgame2"
+        android:layout_alignTop="@+id/ib4"
+        android:rotation="-35"
+        android:src="@drawable/aceclub" />
+
+    <ImageButton
+        android:id="@+id/ib6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ib2"
+        android:layout_below="@+id/ib3"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/eightheart" />
+
+    <ImageButton
+        android:id="@+id/ib8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ib6"
+        android:src="@drawable/aceheart" />
+
+    <ImageButton
+        android:id="@+id/ib4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib8"
+        android:layout_alignLeft="@+id/btrump"
+        android:rotation="35"
+        android:src="@drawable/acedia" />
+
+</RelativeLayout>

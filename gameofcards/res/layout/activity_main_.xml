@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/table_back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 1"
+                android:textSize="20dp"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etPlayer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:typeface="serif" >
+            </EditText>
+
+            <Button
+                android:id="@+id/bPlayer1"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bid"
+                android:visibility="invisible" >
+            </Button>
+
+            <Button
+                android:id="@+id/bPass1"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:visibility="invisible" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 2"
+                android:textSize="20dp"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etPlayer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:typeface="serif" >
+            </EditText>
+
+            <Button
+                android:id="@+id/bPlayer2"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bid"
+                android:visibility="invisible" >
+            </Button>
+
+            <Button
+                android:id="@+id/bPass2"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:visibility="invisible" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPlayer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 3"
+                android:textSize="20dp"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etPlayer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:typeface="serif" >
+            </EditText>
+
+            <Button
+                android:id="@+id/bPlayer3"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bid"
+                android:visibility="invisible" >
+            </Button>
+
+            <Button
+                android:id="@+id/bPass3"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:visibility="invisible" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPlayer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 4"
+                android:textSize="20dp"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etPlayer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:typeface="serif" >
+            </EditText>
+
+            <Button
+                android:id="@+id/bPlayer4"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bid"
+                android:visibility="invisible" >
+            </Button>
+
+            <Button
+                android:id="@+id/bPass4"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:visibility="invisible" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="160dp"
+            android:rotation="-10"
+            android:src="@drawable/clubs" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="160dp"
+            android:rotation="-10"
+            android:src="@drawable/hearts" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="70dp"
+            android:layout_height="160dp"
+            android:rotation="10"
+            android:src="@drawable/diamonds" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="160dp"
+            android:rotation="10"
+            android:src="@drawable/spades" />
+    </LinearLayout>
+
+</LinearLayout>
